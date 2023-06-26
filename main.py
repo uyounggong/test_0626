@@ -195,7 +195,7 @@ class Main(QWidget):
 
         self.ui.btn_run.clicked.connect(self.run_process)
 
-        # self.ui.btn_upload.clicked.connect(self.select_file)
+        self.ui.btn_upload.clicked.connect(self.select_file)
 
         self.ui.progressBar.setValue(0)
 
