@@ -19,7 +19,6 @@ import requests
 # if res.status_code != 200:
 #     print("실패")
 
-test = "version2"
 
 
 class CenteredCheckBoxWidget(QWidget):
@@ -196,7 +195,7 @@ class Main(QWidget):
 
         self.ui.btn_run.clicked.connect(self.run_process)
 
-        self.ui.btn_upload.clicked.connect(self.select_file)
+        # self.ui.btn_upload.clicked.connect(self.select_file)
 
         self.ui.progressBar.setValue(0)
 
