@@ -8,7 +8,18 @@ import os
 import pandas as pd
 import numpy as np
 import ast
+import requests
 
+# OWNER = 'uyounggong'
+# REPO = 'test_0626'
+# API_SERVER_URL = f"https://api.github.com/repos/{OWNER}/{REPO}"
+# MY_API_KEY = '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'
+#
+# res = requests.get(f"{API_SERVER_URL}/releases/latest", auth=(OWNER, MY_API_KEY))
+# if res.status_code != 200:
+#     print("실패")
+
+test = "version2"
 
 
 class CenteredCheckBoxWidget(QWidget):
